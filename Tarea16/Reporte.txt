@@ -1,0 +1,11 @@
+En c++ consts se usa para que algun dato u objeto no pueda ser modificado.
+Puede usarse para mantener una variable constante obtenida de una funcion, ejemplo const int suma(){}
+Puede usarse para pasar un parámetro constante en una funcion, ejemplo int suma(const a, const b){}
+Puede usarse para tener un método constante
+Puede usarse para inicializar simplemente una variable constante, ejemplo, const int = 5.
+También se pueden tener apuntadores constantes, que apuntan a un valor constante, sino hay un error de compilación.
+
+Existe volatile, que es algo que actua con el const. Esto indica que el valor puede cambiar por causas externas.
+
+Se pueden tener valores constantes dentro de clases y estructuras de datos.
+

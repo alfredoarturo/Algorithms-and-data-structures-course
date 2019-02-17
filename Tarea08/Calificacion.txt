@@ -1,0 +1,8 @@
+Representación Máquina:10
+
+Épsilon machine:7 El epsilon machine lo debiste de haber calculado con un double, para ver la máxima precisión que tiene tu máquina.
+
+Estructura punto:10
+
+Total:9
+

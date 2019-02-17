@@ -1,0 +1,8 @@
+Reporte:
+	En la prueba cuadrática, cuando se ingresan datos con cierto sesgo, no se exploran todas las casillas, pues lo que se hace con la prueba cuadrática es ir dando saltos de un tamaño creciente, pero no aleatorio. Así que esto hace que no todas las casillas tengan la misma probabilidad de ser exploradas. Esto se nota en las pruebas realizadas, cuadno se tiene un sesgo en los datos, también se nota en la tabla hash.
+	Cuando los datos no tienen ningún sesgo, esto tampoco se nota en la tabla hash, porque todas las casilas tienen la msima probabilidad de ser exploradas en este caso.
+
+
+
+Readme:
+	El programam no recive nda de datos desde terminal, todo se modificadirectamente en el archivo main.cpp, ya sea en el main o en las mavro definidas. M y N se definieron como macros.

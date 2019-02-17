@@ -1,0 +1,2 @@
+
+En esta tarea se implementaron las funciones indicadas en la descripcion de la tarea. Todas las funciones se implementaron como funciones miembro de la clase tree. Todo se prueba desde el main, nada se ingresa desde la terminal. 

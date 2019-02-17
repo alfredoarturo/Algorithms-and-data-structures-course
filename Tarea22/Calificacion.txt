@@ -1,0 +1,6 @@
+QuickSort:10
+
+Set:10
+
+Total:10
+

@@ -1,0 +1,44 @@
+void bubbleSort( Item a[], int l, int r){
+	for ( int i = r; i >=l; --i)			//+1 por la declaracion de i, +n por i >= l, +(n+1) por --i
+		for (int j = l+1; j <= i; ++j){		//+n poe la declaracion de j, +n(n+1)/2 por j <= i, +(n+1)(n+2)/2 por ++j
+			if ( a[j-1] > a[j]){		//+n(n+1)/2 por acceso a a[j], +n(n+1) por j-1 y acceso a a[j-1], +n(n+1)/2 por la comparacion
+				temp = a[j-1];		//+n(n+1) por j-1 y acceso a a[j-1], +n(n+1)/2 por igualacion
+				a[j-1] = a[j];		//+n(n+1) por j-1 y acceso a a[j-1], +n(n+1)/2 por igualacion, +n(n+1)/2 por acceso a a[j]
+				a[j] = temp;		//+n(n+1)/2 por acceso a a[j], +n(n+1)/2 por igualacion
+			}
+		}
+}							//De esto se concluye que T(n) = 
+
+//Así que se hacen aproximadamente n²/2 comparaciones y cambios en el caso promedio y en el peor de los casos
+
+void selectionSort( Item a[], int l, int r){
+	for ( int i = l, i < r; ++i){			//+1 por declaracion de i, +(n-1) por i < r, n por ++i
+		int min = i;				//+(n-1) por declaracion de min, +(n-1) por igualacion a i
+		for ( int j = i+1; j < r; ++j){		//+(n-1) por declaracion de j, +(n-1)(n-1)(n)/2 por j < r, +(n-1)(n)(n+1)/2 por ++j
+			if ( a[j] < a[min] )		//+(n-1)(n-1)(n)/2 por la comparacion, +(n-1)(n-1)(n) por aceder a a[j] y a[min]
+				min = j;
+		}
+		temp = a[i];				//Esto es el cambio, que se ejecuta n veces.
+		a[i] = a[min];
+		a[min] = temp;
+	}
+}
+
+//Así que se hacen aproximadamente n²/2 comparaciones y cambios en este algoritmo
+
+
+void insetionSort( Item a[], int l, int r){
+	int temp, j;
+
+	for (int i = l+1; i < r; ++i){			//+1 de inicializacion, +n-1 de i < r, +n de ++i
+		j = i;					//+(n-1) de igualacion
+		while ( (j>l) && (a[j-1] > a[j]) ){	//+(n-1)n/2 comparaciones
+			temp = a[j-1];			//+(n-1)n/2 cambios 
+			a[j-1] = a[j];
+			a[j] = temp;
+			j--;
+		}
+	}
+}
+
+Así que se hacen aproximadamente n²/2 comparaciones y cambios.

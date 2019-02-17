@@ -1,0 +1,6 @@
+Expresión infija a posfija:10
+
+Evaluar Expresión posfija:10
+
+Total:10
+

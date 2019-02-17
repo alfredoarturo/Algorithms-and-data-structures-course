@@ -1,0 +1,16 @@
+Longitud:10
+
+Inserta:10
+
+Regresa-n:10
+
+Limpia:10
+
+Regresa-último:10
+
+Quita:10
+
+
+
+Total:10
+

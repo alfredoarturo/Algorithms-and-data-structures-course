@@ -1,0 +1,4 @@
+main.cpp:
+	Este programa lo que hace es que dados n discos, imprime paso por paso en la pantalla
+	No se le manda ningún elemento por la terminl, todo se edita en el main.
+	Esta olucion a la torre de Hanoi se hace de manera recursiva.

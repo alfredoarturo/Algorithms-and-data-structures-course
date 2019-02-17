@@ -1,0 +1,18 @@
+1.-
+Pre-orden: D, B, A, C, F, E, G
+Orden: A, B, C, D, E, F, G
+Post-orden: A, C, B, E, G, F, D
+Por nivel: D, B, F, A, C, E, G
+
+2.-
+Pre-orden: C, B, A, D, E
+Orden: A, B, C, D, E
+Post-orden: A, B, E, D, C
+Por nivel: C, B, D, A, E
+
+3.-
+Pre-orden: E, C, B, A, D, H, F, G, I
+Orden: A, B, C, D, E, F, G, H, I
+Post-orden: A, B, D, C, G, F, I, H, E
+Por nivel: E, C, H, B, D, F, I, A, G
+

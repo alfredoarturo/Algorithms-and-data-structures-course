@@ -1,0 +1,6 @@
+Clase Pila:10
+
+Torres de Hanoi:10
+
+Total:10
+
