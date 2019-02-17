@@ -1,0 +1,12 @@
+Funciones del debugger:
+	-Continue: Esto sirve para que se ejecute el código hasta un breakpoint o el final del código.
+	-Next line: Ejecuta la siguiente línea de código. Si es una función, solo la ejecuta y no muestra a detalle lo que hace.
+	-Next instruction: Ejecuta la siguiente instrucción que se programó, esto está diseñado más para ensamblador, así que ni es muy recomedable usarla.
+	-Step Into: Ejecuta la siguiente línea de código y si hay una llamada de función ejecuta cada una de las líneas de la función, paso a paso.
+	-Step Out: Ejecuta el código de una cierta estructura de control hasta que se finalice
+	-Toggle Break point: Funciona para colocar un breakpoint en una determinada línea del código.
+	-Remove all break points: Quita todos los puntos en donde se va a detener la ejecución del código.
+	-Run to cursor: Ejecuta el código hasta llegar a la linea actual del cursor.
+	-Debugging window: En esta ventana se muestran las variables locales del código.
+	-Edit watches: Funciona para editar las variables observadas en la ventana de Debugging Window.
+

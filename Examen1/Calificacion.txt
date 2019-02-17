@@ -1,0 +1,28 @@
+Clase Matrix
+
+Constructor vacio:10
+Constructor:10
+Operador +:10
+Traza:10
+libera memoria:10
+
+Main:10
+
+
+Busqueda Binaria
+
+Operador < :10
+1000 matrices ordenadas:10
+Busqueda Binaria:10
+
+main:10
+
+EXTRAS
+
+P1 lista ligada: - 
+P2 suma vector:1 
+
+Clase Matriz:10
+Busqueda Binaria:10
+
+Total = 11

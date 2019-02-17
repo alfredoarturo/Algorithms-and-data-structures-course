@@ -1,0 +1,7 @@
+Palabra Bits:10
+
+Número Bits:10
+
+
+Total:10
+

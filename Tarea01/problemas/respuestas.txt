@@ -1,0 +1,20 @@
+Problema 1:
+	Este problema imprime: "107", porque primero imprime 10 y luego 7.
+
+Problema 2:
+	La diferencia entre signed char y unsigned char es el tipo de dato que representa y la memoria que utiliza. Un unsigned char es solo un caracter representado por un número positivo, mientras el otro no necesariamente, además el unsigned char usa menos memoria que el signed char.
+
+Problema 3:
+	ESo lo que hace es que modifica uno de los 4 bytes de memoria que ocupa el entero, así que al final en entero cambia a ser 65280.
+
+Problema 4:
+	Cuando se pasa un elemento por valor, se hace una copia de este, así que no se modifica el original, en cambio cuando es por referencia se puede modificar este valor desde la función. Puede ser más eficiente pasar por referencia si son muchos datos, porque no se copian tantos datos y además no se ingresan tantos argumentos.
+
+Problema 5:
+	Aquí la variable estática b no es borrada cuadno la función termina, el valor de esta variable continúa y no se reinicia cada vez que se llama la función.
+
+Problema 6:
+	Se usan cuatro for para poder permutar las letras, se cambian las posiciones en que se imprimen las letras y así es como funciona el programa.
+
+Problema 7:
+	Se ingresa un entero n, un vector de n+1 coeficientes, otro entero M y un vector de M elementos en los que se va a evaluar el polinomio. Se impremen el valor del polinomio evaluado en los valores ingresados.

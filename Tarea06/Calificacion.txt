@@ -1,0 +1,6 @@
+﻿Graficas:10
+
+Estimador:10
+
+Total:10
+
